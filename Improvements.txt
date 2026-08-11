@@ -1,0 +1,3 @@
+- specify from data and to date
+- add all available routes (No live flight data found for route KUL to ZZE.)
+- provide ticket prices. For actual fare prices, use a flight-pricing API such as Amadeus. (Note: AviationStack provides live/status flight data, not ticket prices)

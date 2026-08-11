@@ -1,0 +1,844 @@
+[
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "certifi",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "certifi",
+        "description": "certifi",
+        "detail": "certifi",
+        "documentation": {}
+    },
+    {
+        "label": "airportsdata",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "airportsdata",
+        "description": "airportsdata",
+        "detail": "airportsdata",
+        "documentation": {}
+    },
+    {
+        "label": "pycountry",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pycountry",
+        "description": "pycountry",
+        "detail": "pycountry",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "TavilyClient",
+        "importPath": "tavily",
+        "description": "tavily",
+        "isExtraImport": true,
+        "detail": "tavily",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTMLResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "StaticFiles",
+        "importPath": "fastapi.staticfiles",
+        "description": "fastapi.staticfiles",
+        "isExtraImport": true,
+        "detail": "fastapi.staticfiles",
+        "documentation": {}
+    },
+    {
+        "label": "Jinja2Templates",
+        "importPath": "fastapi.templating",
+        "description": "fastapi.templating",
+        "isExtraImport": true,
+        "detail": "fastapi.templating",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "run_travel_agent",
+        "importPath": "backend",
+        "description": "backend",
+        "isExtraImport": true,
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "run_travel_agent",
+        "importPath": "backend",
+        "description": "backend",
+        "isExtraImport": true,
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "TypedDict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "operator",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "operator",
+        "description": "operator",
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "psycopg",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "psycopg",
+        "description": "psycopg",
+        "detail": "psycopg",
+        "documentation": {}
+    },
+    {
+        "label": "dict_row",
+        "importPath": "psycopg.rows",
+        "description": "psycopg.rows",
+        "isExtraImport": true,
+        "detail": "psycopg.rows",
+        "documentation": {}
+    },
+    {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "START",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "END",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "PostgresSaver",
+        "importPath": "langgraph.checkpoint.postgres",
+        "description": "langgraph.checkpoint.postgres",
+        "isExtraImport": true,
+        "detail": "langgraph.checkpoint.postgres",
+        "documentation": {}
+    },
+    {
+        "label": "AnyMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "SystemMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "ChatGroq",
+        "importPath": "langchain_groq",
+        "description": "langchain_groq",
+        "isExtraImport": true,
+        "detail": "langchain_groq",
+        "documentation": {}
+    },
+    {
+        "label": "tavily_search",
+        "importPath": "tools.tavily_tool",
+        "description": "tools.tavily_tool",
+        "isExtraImport": true,
+        "detail": "tools.tavily_tool",
+        "documentation": {}
+    },
+    {
+        "label": "tavily_search",
+        "importPath": "tools.tavily_tool",
+        "description": "tools.tavily_tool",
+        "isExtraImport": true,
+        "detail": "tools.tavily_tool",
+        "documentation": {}
+    },
+    {
+        "label": "search_flights",
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "isExtraImport": true,
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "search_flights",
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "isExtraImport": true,
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"A-Multi-Agent-Travel-Planner-with-LangGraph\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"A-Multi-Agent-Travel-Planner-with-LangGraph\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"A-Multi-Agent-Travel-Planner-with-LangGraph\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"A-Multi-Agent-Travel-Planner-with-LangGraph\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"A-Multi-Agent-Travel-Planner-with-LangGraph\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "clean_text",
+        "kind": 2,
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "peekOfCode": "def clean_text(text: str) -> str:\n    text = text.lower().strip()\n    text = re.sub(r\"[^a-z0-9\\s]\", \" \", text)\n    text = re.sub(r\"\\s+\", \" \", text)\n    stop_words = [\n        \"flight\", \"flights\", \"ticket\", \"tickets\", \"trip\", \"travel\",\n        \"plan\", \"complete\", \"days\", \"day\", \"including\", \"hotel\",\n        \"hotels\", \"sightseeing\", \"under\", \"budget\", \"info\", \"information\"\n    ]\n    words = [w for w in text.split() if w not in stop_words]",
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "country_name_to_code",
+        "kind": 2,
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "peekOfCode": "def country_name_to_code(text: str):\n    text = clean_text(text)\n    if text in COUNTRY_ALIASES:\n        return COUNTRY_ALIASES[text]\n    try:\n        country = pycountry.countries.lookup(text)\n        return country.alpha_2\n    except LookupError:\n        pass\n    # Detect country name inside longer text",
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "airport_country_matches",
+        "kind": 2,
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "peekOfCode": "def airport_country_matches(airport: dict, country_code: str) -> bool:\n    airport_country = str(airport.get(\"country\", \"\")).upper().strip()\n    if airport_country == country_code:\n        return True\n    try:\n        country = pycountry.countries.get(alpha_2=country_code)\n        if country and airport_country.lower() == country.name.lower():\n            return True\n    except Exception:\n        pass",
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "get_best_airport_for_country",
+        "kind": 2,
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "peekOfCode": "def get_best_airport_for_country(country_code: str):\n    preferred = COUNTRY_MAIN_AIRPORT.get(country_code)\n    if preferred and preferred in AIRPORTS:\n        return preferred\n    candidates = []\n    for iata, airport in AIRPORTS.items():\n        if not iata:\n            continue\n        if airport_country_matches(airport, country_code):\n            name = str(airport.get(\"name\", \"\")).lower()",
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "resolve_location_to_iata",
+        "kind": 2,
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "peekOfCode": "def resolve_location_to_iata(location: str):\n    \"\"\"\n    Converts country/city/airport/IATA into IATA code.\n    Examples:\n    Bangladesh -> DAC\n    Japan -> NRT\n    Dhaka -> DAC\n    Tokyo -> NRT\n    DAC -> DAC\n    \"\"\"",
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "find_location_mentions",
+        "kind": 2,
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "peekOfCode": "def find_location_mentions(query: str):\n    \"\"\"\n    Finds country or city names inside a natural language query.\n    \"\"\"\n    q = query.lower()\n    mentions = []\n    # Country aliases\n    for alias in COUNTRY_ALIASES:\n        if re.search(rf\"\\b{re.escape(alias)}\\b\", q):\n            mentions.append(alias)",
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "parse_route",
+        "kind": 2,
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "peekOfCode": "def parse_route(query: str):\n    \"\"\"\n    Returns:\n    dep_iata, arr_iata\n    Can return:\n    None, None  -> global live flights\n    DAC, NRT    -> filtered route\n    DAC, None   -> all flights from DAC\n    None, NRT   -> all flights to NRT\n    \"\"\"",
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "format_flight",
+        "kind": 2,
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "peekOfCode": "def format_flight(flight: dict):\n    airline = flight.get(\"airline\", {}).get(\"name\") or \"Unknown airline\"\n    flight_number = flight.get(\"flight\", {}).get(\"iata\") or \"Unknown flight number\"\n    status = flight.get(\"flight_status\") or \"Unknown\"\n    dep = flight.get(\"departure\", {}) or {}\n    arr = flight.get(\"arrival\", {}) or {}\n    dep_airport = dep.get(\"airport\") or \"Unknown departure airport\"\n    dep_iata = dep.get(\"iata\") or \"Unknown\"\n    dep_terminal = dep.get(\"terminal\") or \"N/A\"\n    dep_gate = dep.get(\"gate\") or \"N/A\"",
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "search_flights",
+        "kind": 2,
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "peekOfCode": "def search_flights(query: str, limit: int = 10):\n    if not API_KEY:\n        return (\n            \"Flight API error: AVIATIONSTACK_API_KEY is missing.\\n\"\n            \"Please add this in your .env file:\\n\"\n            \"AVIATIONSTACK_API_KEY=your_api_key_here\"\n        )\n    dep_iata, arr_iata = parse_route(query)\n    params = {\n        \"access_key\": API_KEY,",
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"SSL_CERT_FILE\"]",
+        "kind": 5,
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "peekOfCode": "os.environ[\"SSL_CERT_FILE\"] = certifi.where()\nos.environ[\"REQUESTS_CA_BUNDLE\"] = certifi.where()\nAPI_KEY = os.getenv(\"AVIATIONSTACK_API_KEY\")\n# Default origin when user says only destination, e.g. \"Japan trip\"\n# Change this if your default location is not Bangladesh/Dhaka.\nDEFAULT_ORIGIN_IATA = os.getenv(\"DEFAULT_ORIGIN_IATA\", \"DAC\")\nBASE_URL = \"https://api.aviationstack.com/v1/flights\"\nAIRPORTS = airportsdata.load(\"IATA\")\nCOUNTRY_ALIASES = {\n    \"usa\": \"US\",",
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"REQUESTS_CA_BUNDLE\"]",
+        "kind": 5,
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "peekOfCode": "os.environ[\"REQUESTS_CA_BUNDLE\"] = certifi.where()\nAPI_KEY = os.getenv(\"AVIATIONSTACK_API_KEY\")\n# Default origin when user says only destination, e.g. \"Japan trip\"\n# Change this if your default location is not Bangladesh/Dhaka.\nDEFAULT_ORIGIN_IATA = os.getenv(\"DEFAULT_ORIGIN_IATA\", \"DAC\")\nBASE_URL = \"https://api.aviationstack.com/v1/flights\"\nAIRPORTS = airportsdata.load(\"IATA\")\nCOUNTRY_ALIASES = {\n    \"usa\": \"US\",\n    \"u.s.a\": \"US\",",
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "peekOfCode": "API_KEY = os.getenv(\"AVIATIONSTACK_API_KEY\")\n# Default origin when user says only destination, e.g. \"Japan trip\"\n# Change this if your default location is not Bangladesh/Dhaka.\nDEFAULT_ORIGIN_IATA = os.getenv(\"DEFAULT_ORIGIN_IATA\", \"DAC\")\nBASE_URL = \"https://api.aviationstack.com/v1/flights\"\nAIRPORTS = airportsdata.load(\"IATA\")\nCOUNTRY_ALIASES = {\n    \"usa\": \"US\",\n    \"u.s.a\": \"US\",\n    \"u.s.\": \"US\",",
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_ORIGIN_IATA",
+        "kind": 5,
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "peekOfCode": "DEFAULT_ORIGIN_IATA = os.getenv(\"DEFAULT_ORIGIN_IATA\", \"DAC\")\nBASE_URL = \"https://api.aviationstack.com/v1/flights\"\nAIRPORTS = airportsdata.load(\"IATA\")\nCOUNTRY_ALIASES = {\n    \"usa\": \"US\",\n    \"u.s.a\": \"US\",\n    \"u.s.\": \"US\",\n    \"america\": \"US\",\n    \"united states\": \"US\",\n    \"uk\": \"GB\",",
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_URL",
+        "kind": 5,
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "peekOfCode": "BASE_URL = \"https://api.aviationstack.com/v1/flights\"\nAIRPORTS = airportsdata.load(\"IATA\")\nCOUNTRY_ALIASES = {\n    \"usa\": \"US\",\n    \"u.s.a\": \"US\",\n    \"u.s.\": \"US\",\n    \"america\": \"US\",\n    \"united states\": \"US\",\n    \"uk\": \"GB\",\n    \"u.k.\": \"GB\",",
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "AIRPORTS",
+        "kind": 5,
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "peekOfCode": "AIRPORTS = airportsdata.load(\"IATA\")\nCOUNTRY_ALIASES = {\n    \"usa\": \"US\",\n    \"u.s.a\": \"US\",\n    \"u.s.\": \"US\",\n    \"america\": \"US\",\n    \"united states\": \"US\",\n    \"uk\": \"GB\",\n    \"u.k.\": \"GB\",\n    \"britain\": \"GB\",",
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "COUNTRY_ALIASES",
+        "kind": 5,
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "peekOfCode": "COUNTRY_ALIASES = {\n    \"usa\": \"US\",\n    \"u.s.a\": \"US\",\n    \"u.s.\": \"US\",\n    \"america\": \"US\",\n    \"united states\": \"US\",\n    \"uk\": \"GB\",\n    \"u.k.\": \"GB\",\n    \"britain\": \"GB\",\n    \"england\": \"GB\",",
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "COUNTRY_MAIN_AIRPORT",
+        "kind": 5,
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "peekOfCode": "COUNTRY_MAIN_AIRPORT = {\n    \"BD\": \"DAC\",\n    \"IN\": \"DEL\",\n    \"JP\": \"NRT\",\n    \"US\": \"JFK\",\n    \"GB\": \"LHR\",\n    \"AE\": \"DXB\",\n    \"SG\": \"SIN\",\n    \"MY\": \"KUL\",\n    \"TH\": \"BKK\",",
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "CITY_MAIN_AIRPORT",
+        "kind": 5,
+        "importPath": "tools.flight_tool",
+        "description": "tools.flight_tool",
+        "peekOfCode": "CITY_MAIN_AIRPORT = {\n    \"dhaka\": \"DAC\",\n    \"delhi\": \"DEL\",\n    \"new delhi\": \"DEL\",\n    \"mumbai\": \"BOM\",\n    \"kolkata\": \"CCU\",\n    \"chennai\": \"MAA\",\n    \"bangalore\": \"BLR\",\n    \"bengaluru\": \"BLR\",\n    \"tokyo\": \"NRT\",",
+        "detail": "tools.flight_tool",
+        "documentation": {}
+    },
+    {
+        "label": "tavily_search",
+        "kind": 2,
+        "importPath": "tools.tavily_tool",
+        "description": "tools.tavily_tool",
+        "peekOfCode": "def tavily_search(query):\n    response = client.search(\n        query= query,\n        max_results= 5\n    )\n    results = []\n    for i, r in enumerate(response[\"results\"], 1):\n        title   = r.get(\"title\", \"Unknown\")\n        url     = r.get(\"url\", \"\")\n        snippet = r.get(\"content\", \"\").strip()",
+        "detail": "tools.tavily_tool",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "tools.tavily_tool",
+        "description": "tools.tavily_tool",
+        "peekOfCode": "client = TavilyClient(\n    api_key= os.getenv(\"TAVILY_API_KEY\")\n)\ndef tavily_search(query):\n    response = client.search(\n        query= query,\n        max_results= 5\n    )\n    results = []\n    for i, r in enumerate(response[\"results\"], 1):",
+        "detail": "tools.tavily_tool",
+        "documentation": {}
+    },
+    {
+        "label": "TravelRequest",
+        "kind": 6,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "class TravelRequest(BaseModel):\n    message: str\n    thread_id: str | None = None\n@app.get(\"/\", response_class=HTMLResponse)\nasync def home(request: Request):\n    return templates.TemplateResponse(\n        request=request,\n        name=\"index.html\",\n        context={}\n    )",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent\napp = FastAPI(\n    title=\"TripMate AI\",\n    description=\"LangGraph Multi-Agent Travel Planner with FastAPI Frontend\",\n    version=\"1.0.0\"\n)\napp.mount(\n    \"/static\",\n    StaticFiles(directory=str(BASE_DIR / \"static\")),\n    name=\"static\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = FastAPI(\n    title=\"TripMate AI\",\n    description=\"LangGraph Multi-Agent Travel Planner with FastAPI Frontend\",\n    version=\"1.0.0\"\n)\napp.mount(\n    \"/static\",\n    StaticFiles(directory=str(BASE_DIR / \"static\")),\n    name=\"static\"\n)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "templates",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "templates = Jinja2Templates(\n    directory=str(BASE_DIR / \"templates\")\n)\nclass TravelRequest(BaseModel):\n    message: str\n    thread_id: str | None = None\n@app.get(\"/\", response_class=HTMLResponse)\nasync def home(request: Request):\n    return templates.TemplateResponse(\n        request=request,",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "TravelState",
+        "kind": 6,
+        "importPath": "backend",
+        "description": "backend",
+        "peekOfCode": "class TravelState(TypedDict):\n    messages: Annotated[list[AnyMessage], operator.add]\n    user_query: str\n    flight_results: str\n    hotel_results: str\n    itinerary: str\n    llm_calls: int\n# =========================\n# Flight Agent\n# =========================",
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "get_database_url",
+        "kind": 2,
+        "importPath": "backend",
+        "description": "backend",
+        "peekOfCode": "def get_database_url():\n    database_url = os.getenv(\"DATABASE_URL\")\n    if not database_url:\n        raise ValueError(\n            \"DATABASE_URL is missing. Please add your Render PostgreSQL External Database URL to .env\"\n        )\n    if \"sslmode=\" not in database_url:\n        separator = \"&\" if \"?\" in database_url else \"?\"\n        database_url = f\"{database_url}{separator}sslmode=require\"\n    return database_url",
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "flight_agent",
+        "kind": 2,
+        "importPath": "backend",
+        "description": "backend",
+        "peekOfCode": "def flight_agent(state: TravelState):\n    query = state[\"user_query\"]\n    flight_data = search_flights(query)\n    return {\n        \"flight_results\": flight_data,\n        \"messages\": [\n            AIMessage(content=\"Flight results fetched.\")\n        ],\n        \"llm_calls\": state.get(\"llm_calls\", 0) + 1\n    }",
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "hotel_agent",
+        "kind": 2,
+        "importPath": "backend",
+        "description": "backend",
+        "peekOfCode": "def hotel_agent(state: TravelState):\n    query = f\"Best hotels for {state['user_query']}\"\n    hotel_results = tavily_search(query)\n    return {\n        \"hotel_results\": hotel_results,\n        \"messages\": [\n            AIMessage(content=\"Hotel information fetched.\")\n        ],\n        \"llm_calls\": state.get(\"llm_calls\", 0) + 1\n    }",
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "itinerary_agent",
+        "kind": 2,
+        "importPath": "backend",
+        "description": "backend",
+        "peekOfCode": "def itinerary_agent(state: TravelState):\n    prompt = f\"\"\"\nCreate a complete travel itinerary.\nUser Query:\n{state['user_query']}\nFlight Results:\n{state['flight_results']}\nHotel Results:\n{state['hotel_results']}\nMake the itinerary practical, budget-aware, and easy to follow.",
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "final_agent",
+        "kind": 2,
+        "importPath": "backend",
+        "description": "backend",
+        "peekOfCode": "def final_agent(state: TravelState):\n    final_prompt = f\"\"\"\nGenerate the final travel response for the user.\nUser Request:\n{state['user_query']}\nFlights:\n{state['flight_results']}\nHotels:\n{state['hotel_results']}\nItinerary:",
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "run_travel_agent",
+        "kind": 2,
+        "importPath": "backend",
+        "description": "backend",
+        "peekOfCode": "def run_travel_agent(user_input: str, thread_id: str | None = None):\n    if not thread_id:\n        thread_id = f\"user_{uuid.uuid4().hex}\"\n    config = {\n        \"configurable\": {\n            \"thread_id\": thread_id\n        }\n    }\n    result = travel_graph.invoke(\n        {",
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"SSL_CERT_FILE\"]",
+        "kind": 5,
+        "importPath": "backend",
+        "description": "backend",
+        "peekOfCode": "os.environ[\"SSL_CERT_FILE\"] = certifi.where()\nos.environ[\"REQUESTS_CA_BUNDLE\"] = certifi.where()\nfrom typing import TypedDict, Annotated\nimport operator\nimport uuid\nimport psycopg\nfrom psycopg.rows import dict_row\nfrom langgraph.graph import StateGraph, START, END\nfrom langgraph.checkpoint.postgres import PostgresSaver\nfrom langchain_core.messages import (",
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"REQUESTS_CA_BUNDLE\"]",
+        "kind": 5,
+        "importPath": "backend",
+        "description": "backend",
+        "peekOfCode": "os.environ[\"REQUESTS_CA_BUNDLE\"] = certifi.where()\nfrom typing import TypedDict, Annotated\nimport operator\nimport uuid\nimport psycopg\nfrom psycopg.rows import dict_row\nfrom langgraph.graph import StateGraph, START, END\nfrom langgraph.checkpoint.postgres import PostgresSaver\nfrom langchain_core.messages import (\n    AnyMessage,",
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "GROQ_API_KEY",
+        "kind": 5,
+        "importPath": "backend",
+        "description": "backend",
+        "peekOfCode": "GROQ_API_KEY = os.getenv(\"GROQ_API_KEY\")\nif not GROQ_API_KEY:\n    raise ValueError(\"GROQ_API_KEY is missing. Please add it to your .env file.\")\n# =========================\n# LLM\n# =========================\nllm = ChatGroq(\n    model=\"llama-3.3-70b-versatile\",\n    api_key=GROQ_API_KEY\n)",
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "backend",
+        "description": "backend",
+        "peekOfCode": "llm = ChatGroq(\n    model=\"llama-3.3-70b-versatile\",\n    api_key=GROQ_API_KEY\n)\n# =========================\n# State\n# =========================\nclass TravelState(TypedDict):\n    messages: Annotated[list[AnyMessage], operator.add]\n    user_query: str",
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "graph",
+        "kind": 5,
+        "importPath": "backend",
+        "description": "backend",
+        "peekOfCode": "graph = StateGraph(TravelState)\ngraph.add_node(\"flight_agent\", flight_agent)\ngraph.add_node(\"hotel_agent\", hotel_agent)\ngraph.add_node(\"itinerary_agent\", itinerary_agent)\ngraph.add_node(\"final_agent\", final_agent)\ngraph.add_edge(START, \"flight_agent\")\ngraph.add_edge(\"flight_agent\", \"hotel_agent\")\ngraph.add_edge(\"hotel_agent\", \"itinerary_agent\")\ngraph.add_edge(\"itinerary_agent\", \"final_agent\")\ngraph.add_edge(\"final_agent\", END)",
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "backend",
+        "description": "backend",
+        "peekOfCode": "DATABASE_URL = get_database_url()\n_conn = psycopg.connect(\n    DATABASE_URL,\n    autocommit=True,\n    row_factory=dict_row\n)\nPostgres_checkpointer = PostgresSaver(_conn)\nPostgres_checkpointer.setup()\ntravel_graph = graph.compile(checkpointer=Postgres_checkpointer)\n# =========================",
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "_conn",
+        "kind": 5,
+        "importPath": "backend",
+        "description": "backend",
+        "peekOfCode": "_conn = psycopg.connect(\n    DATABASE_URL,\n    autocommit=True,\n    row_factory=dict_row\n)\nPostgres_checkpointer = PostgresSaver(_conn)\nPostgres_checkpointer.setup()\ntravel_graph = graph.compile(checkpointer=Postgres_checkpointer)\n# =========================\n# Function for FastAPI",
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "Postgres_checkpointer",
+        "kind": 5,
+        "importPath": "backend",
+        "description": "backend",
+        "peekOfCode": "Postgres_checkpointer = PostgresSaver(_conn)\nPostgres_checkpointer.setup()\ntravel_graph = graph.compile(checkpointer=Postgres_checkpointer)\n# =========================\n# Function for FastAPI\n# =========================\ndef run_travel_agent(user_input: str, thread_id: str | None = None):\n    if not thread_id:\n        thread_id = f\"user_{uuid.uuid4().hex}\"\n    config = {",
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "travel_graph",
+        "kind": 5,
+        "importPath": "backend",
+        "description": "backend",
+        "peekOfCode": "travel_graph = graph.compile(checkpointer=Postgres_checkpointer)\n# =========================\n# Function for FastAPI\n# =========================\ndef run_travel_agent(user_input: str, thread_id: str | None = None):\n    if not thread_id:\n        thread_id = f\"user_{uuid.uuid4().hex}\"\n    config = {\n        \"configurable\": {\n            \"thread_id\": thread_id",
+        "detail": "backend",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def main():\n    print(\"Hello from a-multi-agent-travel-planner-with-langgraph!\")\nif __name__ == \"__main__\":\n    main()",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "user_input",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "user_input = input(\"Enter travel request: \")\nresponse = run_travel_agent(\n    user_input=user_input,\n    thread_id=\"test_user\"\n)\nprint(\"\\nFINAL RESPONSE:\\n\")\nprint(response[\"answer\"])",
+        "detail": "test",
+        "documentation": {}
+    },
+    {
+        "label": "response",
+        "kind": 5,
+        "importPath": "test",
+        "description": "test",
+        "peekOfCode": "response = run_travel_agent(\n    user_input=user_input,\n    thread_id=\"test_user\"\n)\nprint(\"\\nFINAL RESPONSE:\\n\")\nprint(response[\"answer\"])",
+        "detail": "test",
+        "documentation": {}
+    }
+]
