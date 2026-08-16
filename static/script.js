@@ -1,183 +1,22 @@
 let currentThreadId = localStorage.getItem("travel_thread_id") || null;
 let latestAnswerMarkdown = "";
+const avatarBase = "/static/images/avatars/";
+const avatarChoices = ["avatar1.jpg", "avatar2.jpg", "avatar3.jpg", "avatar4.jpg", "avatar5.jpg", "avatar6.jpg"];
+let selectedAvatar = localStorage.getItem("travel_user_avatar") || avatarChoices[0];
 
-function setPrompt(text) {
-    document.getElementById("userInput").value = text;
-}
-
-function setLoading(isLoading) {
-    const sendBtn = document.getElementById("sendBtn");
-    const btnText = document.getElementById("btnText");
-    const btnLoader = document.getElementById("btnLoader");
-
-    sendBtn.disabled = isLoading;
-
-    if (isLoading) {
-        btnText.classList.add("hidden");
-        btnLoader.classList.remove("hidden");
-    } else {
-        btnText.classList.remove("hidden");
-        btnLoader.classList.add("hidden");
-    }
-}
-
-function showError(message) {
-    const errorBox = document.getElementById("errorBox");
-
-    errorBox.textContent = message;
-    errorBox.classList.remove("hidden");
-}
-
-function hideError() {
-    const errorBox = document.getElementById("errorBox");
-
-    errorBox.classList.add("hidden");
-    errorBox.textContent = "";
-}
-
-function showResult(answer, threadId) {
-    latestAnswerMarkdown = answer;
-
-    const resultSection = document.getElementById("resultSection");
-    const resultBox = document.getElementById("resultBox");
-    const threadInfo = document.getElementById("threadInfo");
-
-    if (typeof marked !== "undefined") {
-        resultBox.innerHTML = marked.parse(answer);
-    } else {
-        resultBox.innerText = answer;
-    }
-
-    threadInfo.textContent = `Thread ID: ${threadId}`;
-
-    resultSection.classList.remove("hidden");
-
-    resultSection.scrollIntoView({
-        behavior: "smooth",
-        block: "start"
-    });
-}
-
-async function sendMessage() {
-    hideError();
-
-    const input = document.getElementById("userInput");
-    const message = input.value.trim();
-
-    if (!message) {
-        showError("Please enter your travel request first.");
-        return;
-    }
-
-    setLoading(true);
-
-    try {
-        const response = await fetch("/api/travel", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                message: message,
-                thread_id: currentThreadId
-            })
-        });
-
-        const data = await response.json();
-
-        if (!response.ok || !data.success) {
-            throw new Error(data.error || "Something went wrong.");
-        }
-
-        currentThreadId = data.thread_id;
-        localStorage.setItem("travel_thread_id", currentThreadId);
-
-        showResult(data.answer, data.thread_id);
-
-    } catch (error) {
-        showError(error.message);
-    } finally {
-        setLoading(false);
-    }
-}
-
-function copyResult() {
-    const resultBox = document.getElementById("resultBox");
-    const text = resultBox.innerText;
-
-    if (!text) {
-        return;
-    }
-
-    navigator.clipboard.writeText(text)
-        .then(() => {
-            const copyBtn = document.querySelector(".copy-btn");
-            const oldText = copyBtn.textContent;
-
-            copyBtn.textContent = "Copied!";
-
-            setTimeout(() => {
-                copyBtn.textContent = oldText;
-            }, 1400);
-        })
-        .catch(() => {
-            showError("Could not copy result.");
-        });
-}
-
-function downloadPDF() {
-    const pdfContent = document.getElementById("pdfContent");
-
-    if (!latestAnswerMarkdown || !pdfContent) {
-        showError("No travel plan available to download.");
-        return;
-    }
-
-    const downloadBtn = document.querySelector(".download-btn");
-    const oldText = downloadBtn.textContent;
-
-    downloadBtn.textContent = "Preparing PDF...";
-    downloadBtn.disabled = true;
-
-    const options = {
-        margin: 0.5,
-        filename: "ai-travel-plan.pdf",
-        image: {
-            type: "jpeg",
-            quality: 0.98
-        },
-        html2canvas: {
-            scale: 2,
-            useCORS: true,
-            backgroundColor: "#ffffff"
-        },
-        jsPDF: {
-            unit: "in",
-            format: "a4",
-            orientation: "portrait"
-        },
-        pagebreak: {
-            mode: ["avoid-all", "css", "legacy"]
-        }
-    };
-
-    html2pdf()
-        .set(options)
-        .from(pdfContent)
-        .save()
-        .then(() => {
-            downloadBtn.textContent = oldText;
-            downloadBtn.disabled = false;
-        })
-        .catch(() => {
-            downloadBtn.textContent = oldText;
-            downloadBtn.disabled = false;
-            showError("Could not download PDF.");
-        });
-}
-
-document.addEventListener("keydown", function(event) {
-    if (event.ctrlKey && event.key === "Enter") {
-        sendMessage();
-    }
-});
+function setPrompt(text) { document.getElementById("userInput").value = text; document.getElementById("userInput").focus(); }
+function setLoading(isLoading) { const sendBtn=document.getElementById("sendBtn"), btnText=document.getElementById("btnText"), btnLoader=document.getElementById("btnLoader"); sendBtn.disabled=isLoading; btnText.textContent=isLoading ? "Generating plan…" : "Generate plan"; btnLoader.classList.toggle("hidden",!isLoading); }
+function showError(message) { const box=document.getElementById("errorBox"); box.textContent=message; box.classList.remove("hidden"); }
+function hideError() { const box=document.getElementById("errorBox"); box.classList.add("hidden"); box.textContent=""; }
+function renderAvatarChoices() { const options=document.getElementById("avatarOptions"); options.innerHTML=avatarChoices.map((avatar,index)=>`<label class="avatar-option"><input type="radio" name="avatar" value="${avatar}" ${avatar===selectedAvatar?"checked":""}><img src="${avatarBase+avatar}" alt="Avatar ${index+1}"></label>`).join(""); }
+function applyProfile() { const name=localStorage.getItem("travel_user_name") || "Traveller"; const avatar=localStorage.getItem("travel_user_avatar") || avatarChoices[0]; document.getElementById("navUserName").textContent=name; document.getElementById("navAvatar").src=avatarBase+avatar; document.getElementById("plannerName").textContent=name; document.getElementById("personalGreeting").textContent="Tell me about your ideal trip and I’ll create the plan."; }
+function openProfile() { const modal=document.getElementById("profileModal"); const savedName=localStorage.getItem("travel_user_name") || ""; selectedAvatar=localStorage.getItem("travel_user_avatar") || avatarChoices[0]; document.getElementById("profileName").value=savedName; document.getElementById("profileError").textContent=""; renderAvatarChoices(); modal.classList.add("is-open"); modal.setAttribute("aria-hidden","false"); setTimeout(()=>document.getElementById("profileName").focus(),50); }
+function closeProfile() { const modal=document.getElementById("profileModal"); modal.classList.remove("is-open"); modal.setAttribute("aria-hidden","true"); }
+function openAbout() { const modal=document.getElementById("aboutModal"); modal.classList.add("is-open"); modal.setAttribute("aria-hidden","false"); }
+function closeAbout() { const modal=document.getElementById("aboutModal"); modal.classList.remove("is-open"); modal.setAttribute("aria-hidden","true"); }
+function initializeProfile() { renderAvatarChoices(); applyProfile(); document.getElementById("aboutButton").addEventListener("click",openAbout); document.getElementById("closeAbout").addEventListener("click",closeAbout); document.getElementById("aboutModal").addEventListener("click",event=>{if(event.target===event.currentTarget)closeAbout();}); document.getElementById("openProfile").addEventListener("click",openProfile); document.getElementById("profileButton").addEventListener("click",openProfile); document.getElementById("closeProfile").addEventListener("click",closeProfile); document.getElementById("profileModal").addEventListener("click",event=>{if(event.target===event.currentTarget)closeProfile();}); document.getElementById("profileForm").addEventListener("submit",event=>{event.preventDefault(); const name=document.getElementById("profileName").value.trim(); const selected=document.querySelector('input[name="avatar"]:checked'); const error=document.getElementById("profileError"); if(!name || !selected) { error.textContent="Please enter your name and choose an avatar."; return; } localStorage.setItem("travel_user_name",name); localStorage.setItem("travel_user_avatar",selected.value); selectedAvatar=selected.value; applyProfile(); closeProfile(); }); if(!localStorage.getItem("travel_user_name")) openProfile(); }
+function showResult(answer, threadId) { latestAnswerMarkdown=answer; const resultSection=document.getElementById("resultSection"), resultBox=document.getElementById("resultBox"); resultBox.innerHTML=typeof marked!=="undefined"?marked.parse(answer):answer; document.getElementById("threadInfo").textContent=`Thread ID: ${threadId}`; resultSection.classList.remove("hidden"); resultSection.scrollIntoView({behavior:"smooth",block:"start"}); }
+async function sendMessage() { hideError(); const input=document.getElementById("userInput"), message=input.value.trim(); if(!message) { showError("Please enter your travel request first."); return; } setLoading(true); try { const response=await fetch("/api/travel",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({message,thread_id:currentThreadId})}); const data=await response.json(); if(!response.ok || !data.success) throw new Error(data.error || "Something went wrong."); currentThreadId=data.thread_id; localStorage.setItem("travel_thread_id",currentThreadId); showResult(data.answer,data.thread_id); } catch(error) { showError(error.message); } finally { setLoading(false); } }
+function copyResult() { const text=document.getElementById("resultBox").innerText; if(!text)return; navigator.clipboard.writeText(text).then(()=>{const button=document.querySelector(".copy-btn"), old=button.textContent; button.textContent="Copied!"; setTimeout(()=>button.textContent=old,1400);}).catch(()=>showError("Could not copy result.")); }
+function downloadPDF() { const pdfContent=document.getElementById("pdfContent"); if(!latestAnswerMarkdown || !pdfContent) { showError("No travel plan available to download."); return; } const button=document.querySelector(".download-btn"),old=button.textContent; button.textContent="Preparing PDF..."; button.disabled=true; html2pdf().set({margin:.5,filename:"ai-travel-plan.pdf",image:{type:"jpeg",quality:.98},html2canvas:{scale:2,useCORS:true,backgroundColor:"#ffffff"},jsPDF:{unit:"in",format:"a4",orientation:"portrait"},pagebreak:{mode:["avoid-all","css","legacy"]}}).from(pdfContent).save().then(()=>{button.textContent=old;button.disabled=false;}).catch(()=>{button.textContent=old;button.disabled=false;showError("Could not download PDF.");}); }
+document.addEventListener("DOMContentLoaded",initializeProfile); document.addEventListener("keydown",event=>{if(event.key==="Escape") { closeProfile(); closeAbout(); } if(event.ctrlKey && event.key==="Enter")sendMessage();});
